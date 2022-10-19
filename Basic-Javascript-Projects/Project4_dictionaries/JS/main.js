@@ -6,5 +6,6 @@ function KeyValues() {
         Style: 'Coupe',
         Year: 2020
     }
-    document.getElementById('Dictionary').innerHTML = Car.Class;
+    delete Car.Year // This deletes the key value pair Year: 2020
+    document.getElementById('Dictionary').innerHTML = Car.Style;
 }
