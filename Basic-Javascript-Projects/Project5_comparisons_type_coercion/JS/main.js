@@ -1,0 +1,17 @@
+document.write(typeof 30);
+document.write("<br>");
+document.write(2 + '10');
+document.write("<br>");
+document.write(20 == 3);
+document.write("<br>");
+document.write(30 === 30);
+document.write("<br>");
+document.write(2 > 1);
+document.write("<br>");
+document.write( 10 < 2);
+document.write("<br>");
+document.write( 20 > 2 && 3 < 5);
+document.write("<br>");
+document.write(2 > 5 || 10 > 2);
+document.write("<br>");
+document.write(!(2 > 10));
