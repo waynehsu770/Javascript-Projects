@@ -8,7 +8,7 @@ function placeXorO(squareNumber) {
     // This condition ensures a square hasn't been selected already.
     // The .some() method is used to check each element of the selectSquare array
     // to see if it contains the square number clicked on
-    if (!selectedSqaures.some(element => element.includes(squareNumber))) {
+    if (!selectedSquares.some(element => element.includes(squareNumber))) {
         // Variable retrieves the HTML element id 
         let select = document.getElementById(squareNumber);
         // This checks who's turn it is 
@@ -140,7 +140,7 @@ function audio(audioURL) {
 }
 
 // This function utilizes HTML canvas to draw win lines
-function drawWinLine(coordX1, coordY1, coordX2, coodY2) {
+function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
     // This line accesses HTML canvas element
     const canvas = document.getElementById('win-lines');
     // This gives us access to methods and properties to use on canvas
