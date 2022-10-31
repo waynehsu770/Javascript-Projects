@@ -1,5 +1,5 @@
 # Javascript-Projects
-These are projects I made with Javascript. 
+### These are projects I made with Javascript. ###
 
 **Projects**
 - Pizza Menu
